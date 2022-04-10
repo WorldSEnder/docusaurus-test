@@ -50,6 +50,9 @@ const config = {
         },
         items: [
           {
+            type: 'localeDropdown',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
@@ -113,6 +116,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+  },
 };
 
 module.exports = config;
